@@ -1,11 +1,60 @@
-/******************************************Адаптивность*********************************************/
+/******************************************Переменные, кнопки, заголовки *********************************************/
 
+
+@media (max-width: 1900px) {
+    .text_h3 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .text_h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .text_h3 {
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .text_h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .text_h3 {
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+}
+
+@media (max-width: 720px) {
+    .text_h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text_h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
 
 /***************************************** Навбар, Хэдер*********************************************/
 
 @media (max-width: 1900px) {
     .nav-link {
         margin-right: 60px;
+    }
+
+    .navbar-nav {
+        margin-right: 27px;
     }
 
     .header_text_p {
@@ -23,8 +72,9 @@
         font-size: 20px;
         margin-left: 18%;
     }
+
     .header_buttons {
-        margin-top: 27% !important;
+        margin-top: 17% !important;
     }
 }
 
@@ -214,6 +264,7 @@
         font-size: 11px !important;
         padding: 5px 50px !important;
     }
+
     .header_buttons {
         margin-top: 12% !important;
     }
@@ -226,6 +277,7 @@
 
     .navbar-nav {
         text-align: center;
+        margin-right: 24px;
     }
 
     .nav-link {
@@ -244,18 +296,18 @@
     .header_text_p {
         margin-top: 26%;
         line-height: 0px;
-        margin-left: 18%;
+        margin-left: 16%;
         font-size: 11px;
     }
 
     .header_text_h1 {
         font-size: 24px;
-        margin-left: 18%;
+        margin-left: 16%;
     }
 
     .header_text_h2 {
-        font-size: 13px;
-        margin-left: 18%;
+        font-size: 12px;
+        margin-left: 16%;
     }
 
     .header_buttons {
@@ -273,6 +325,7 @@
     .arrow_down img {
         width: 20px;
     }
+
     .arrow_down {
         margin-top: 20px;
     }
@@ -282,12 +335,15 @@
     .header_text_h1 {
         font-size: 23px;
     }
+
     .header_text_p {
         margin-top: 19%;
     }
+
     .header_text_h2 {
         line-height: 20px;
     }
+
     .header_buttons {
         margin-top: 13% !important;
     }
@@ -303,22 +359,27 @@
         width: 90px;
         margin-top: 0px;
     }
+
     .header_text_p {
         font-size: 8px;
     }
+
     .header_text_h1 {
         font-size: 20px;
     }
+
     .header_text_h2 {
         font-size: 9px;
     }
-     .header_button_left,
+
+    .header_button_left,
     .header_button_right {
         width: 150px !important;
         height: 20px !important;
         font-size: 10px !important;
         line-height: 10px !important;
     }
+
     .header_buttons {
         margin-top: 9% !important;
     }
@@ -343,6 +404,10 @@
         height: 20px;
     }
 
+    .navbar-toggler {
+        margin-right: 25px;
+    }
+
     .navbar {
         padding: 0px;
     }
@@ -354,6 +419,7 @@
     .nav-link:hover {
         border-bottom: none;
     }
+
     .header_text_p {
         display: none;
     }
@@ -372,16 +438,19 @@
         line-height: 12px;
         text-align: left;
     }
+
     .header_button_left {
         margin-top: 0px;
         margin-bottom: 14px;
     }
-    .buttons_left, .buttons_right {
-       
-    }
+
+    .buttons_left,
+    .buttons_right {}
+
     .header_buttons {
         margin-top: 17% !important;
     }
+
     .header_button_left,
     .header_button_right {
         width: 131px !important;
@@ -395,5 +464,122 @@
 @media (max-width: 1710px) {
     .background_1 {
         background-size: contain;
+    }
+}
+
+/***************************************** Наши услуги *********************************************/
+
+@media (max-width: 1900px) {}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1430px) {}
+
+@media (max-width: 1250px) {
+    .rectangle_services_h3 {
+        width: 110px;
+    }
+
+    .services_p {
+        font-size: 16px;
+    }
+
+    .services_h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .rectangle_services_h3 {
+        width: 95px;
+    }
+
+    .services_p {
+        font-size: 14px;
+    }
+
+    .services_h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 720px) {
+    .rectangle_services_h3 {
+        width: 85px;
+    }
+
+    .services_p {
+        font-size: 12px;
+    }
+
+    .services_h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .services_h3 {
+        margin-top: 20px;
+    }
+
+    .rectangle_services_h3 {
+        width: 65px;
+        margin-bottom: 0px;
+    }
+
+    .services_h5 {
+        font-size: 14px;
+    }
+
+    .services_p {
+        font-size: 10px;
+    }
+
+    .our_services .row-cols-xs-1 {
+        width: 53%;
+        margin: 0px auto;
+    }
+
+    .services_repair_img {
+        width: 48px;
+    }
+
+}
+
+/***************************************** Прайс *********************************************/
+
+@media (max-width: 720px) {
+    
+    .price_img {
+        display: none;
+    }
+
+    .price_table {
+        display: table;
+        background-color: rgba(150, 150, 150, 0.15);
+    }
+    .price_table tr {
+        color: rgba(255, 255, 255, 0.84);
+    }
+    .price_table:last-child {
+        border-bottom: none !important;
+    }
+    .price_table {
+        width: 77%;
+        margin: 0 auto !important;
+    }
+    .td_price {
+        text-align: center;
+    }
+    .td_service {
+        margin-left: 15px !important;
+        border-bottom-width: 0px;
+    }
+    .td_service_lastchild, .td_price_lastchild {
+        border-color: transparent;
+    }
+    .rectangle_price_h3 {
+        margin-bottom: 24px;
     }
 }

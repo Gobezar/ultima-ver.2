@@ -23,7 +23,8 @@ img {
 body {}
 
 .background_1 {
-    background: url(../img/background_1.jpg);
+    /* background: url(../img/background_1.jpg); */
+    background-color: rgb(23, 23, 23);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -319,6 +320,10 @@ body {}
 .btn {}
 
 /******************************************Прайс*********************************************/
+.price_table {
+    display: none;
+}
+
 .price {
     position: relative;
 }
